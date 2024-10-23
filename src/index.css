@@ -71,3 +71,9 @@ code {
   border: 3px solid rgb(18, 106, 124);border-radius: 8%; width: 120%;height: 100%;transition: scale 400ms;}
 .card6:hover img{scale: 120%;border: 3px solid rgb(36, 178, 161);border-radius: 8%;overflow: hidden;}
 /*media resolution*/
+@media(max-width:600px)
+{
+  .col2 {display: flex;margin-left: 1rem;align-items: center;}
+  .card {display: inline-block;box-sizing: border-box;
+    width: 200px;height: 220px;margin: 10px 15px;padding: 5px 8px;}
+}
